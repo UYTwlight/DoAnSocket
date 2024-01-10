@@ -1,0 +1,28 @@
+{
+    "General": {
+        "Username": "Tran Minh Son <ptvuong@gmail.com>",
+        "Password": "123456",
+        "MailServer": "127.0.0.1",
+        "SMTP": 2225,
+        "POP3": 3335,
+        "Autoload": 10
+    },
+    "Filter": {
+        "From": {
+            "Keyword": ["ahihi@testing.com", "ahuu@testing.com"],
+            "Folder": "Project"
+        },
+        "Subject": {
+            "Keyword": ["urgent", "ASAP"],
+            "Folder": "Important"
+        },
+        "Content": {
+            "Keyword": ["report", "meeting"],
+            "Folder": "Work"
+        },
+        "Spam": {
+            "Keyword": ["virus", "hack", "crack"],
+            "Folder": "Spam"
+        }
+    }
+}
